@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/output.css">
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: bisque;
+        }
+        .mainn a{
+            height: 23px;
+           
+        }
+        .ch{
+            height: 432px;
+            cursor: pointer;
+            margin: 10px 11px 10px 0;
+        }
+        .ch img{
+            height: 220px;
+            width: 320px;
+        }
+        .ch div{
+         word-break: break-all;
+         font-weight: bold;
+         align-items: center;
+         justify-content: center;
+         display: flex;
+         font-size: 18px;
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .ch p{
+            font-size: 14px;
+            word-break: break-all;
+
+        }
+        :hover.ch{
+            background-color: rgb(188, 198, 207);
+            
+        }
+        .foot{
+            height: 50px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            gap: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="flex justify-around items-center bg-green-800 p-5">
+         <div class="font-serif text-xl">
+            <span class="text-white"> &lt; News</span> <span>App &gt;</span>
+         </div>  
+            <ul class="search flex justify-center items-center gap-4"> 
+                <li class="list-none"><input class="bg-red-50 rounded-full p-1 px-2 text-gray-800" type="text" id="inp"></input></li>
+                <li class="list-none"><button id="sear">Search</button></li>
+            </ul>        
+    </header>
+    <main>
+        <div class="mainn flex justify-start items-start flex-wrap m-3">
+           
+    </div>
+</main>   
+    <footer>
+          <div class="foot flex justify-center items-center bg-green-800 p-6 gap-2">
+            <div class="font-bold text-white p-4">
+                Created By me
+            </div>
+            <div>
+                <img src="download.png" alt="" width="18">
+            </div>
+            <div>
+                Ayushman Barick
+            </div>
+          </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
